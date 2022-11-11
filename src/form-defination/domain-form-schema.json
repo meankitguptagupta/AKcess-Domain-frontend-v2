@@ -1,0 +1,31 @@
+[
+    {
+        "label": "Domain name",
+        "id": "domainname",
+        "defaultValue": "",
+        "required": true,
+        "hint": "Do not add http/https or www"
+    },
+    {
+        "label": "Company name",
+        "id": "companyname",
+        "defaultValue": "",
+        "required": true
+    },
+    {
+        "type": "switch",
+        "label": "Do you want a seperate Channel?",
+        "id": "has_requested",
+        "defaultValue": false
+    },
+    {
+        "label": "Blockchain node name",
+        "id": "blockchainnodename",
+        "defaultValue": "",
+        "required": true,
+        "depend": {
+            "fieldId": "has_requested",
+            "value": true
+        }
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "value": "g",
+        "label": "Government"
+    },
+    {
+        "value": "f",
+        "label": "Financial"
+    },
+    {
+        "value": "t",
+        "label": "Telecom"
+    },
+    {
+        "value": "a",
+        "label": "Akcess"
+    },
+    {
+        "value": "o",
+        "label": "Other"
+    }
+]

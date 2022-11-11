@@ -1,0 +1,38 @@
+/*
+ * File: UploadImgField.css
+ * Project: Domain UI
+ * path: /src/components/common/form-fields
+ * File Created: Saturday, 24th September 2022 10:39:21 pm
+ * Author: Ankit Gupta (ankit@akcess.dev)
+ * -----
+ * Last Modified: Saturday, 24th September 2022 10:39:22 pm
+ * Modified By: Ankit Gupta (ankit@akcess.dev)
+ * -----
+ * Copyright 2022 - 2022 AKcess, AKcess labs, UK
+ */
+
+.upload-img {
+    filter: gray;
+    /* IE6-9 */
+    -webkit-filter: grayscale(1);
+    /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1);
+    /* Microsoft Edge and Firefox 35+ */
+}
+
+.upload-img:hover {
+    -webkit-filter: grayscale(0);
+    filter: none;
+}
+
+.upload-img-container {
+    position: relative;
+}
+
+.upload-img-container .upload-img-btn {
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
